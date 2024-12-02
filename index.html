@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes & Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="box1">
+            <p>1</p>
+        </div>
+        <div class="box1">
+            <p>2</p>
+        </div>
+        <div class="box1">
+            <p>3</p>
+        </div>
+        <div class="box1">
+            <p>4</p>
+        </div>
+    </header>
+
+    <div>
+        <button id="bot">Click Me</button>
+    </div>
+
+    <div class="time-display">
+        <span id="hours">00</span> :
+        <span id="minutes">00</span> :
+        <span id="seconds">00</span>
+    </div>
+
+    <div>
+        <button id="start-btn">Start</button>
+        <button id="stop-btn">Stop</button>
+        <button id="reset-btn">Reset</button>
+        <button id="lap-btn">Lap</button>
+    </div>
+
+    <ul id="lap-list"></ul>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
